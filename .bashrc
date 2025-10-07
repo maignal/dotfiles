@@ -26,10 +26,6 @@ unset rc
 
 fastfetch
 
-#export PATH=$PATH:/usr/local/texlive/2025/bin/x86_64-linux
-
-#export PATH=$PATH:/opt/riscv/bin
-
 export PATH=$PATH:/home/romeo/.spicetify
 
 export PATH=/usr/local/texlive/2025/bin/x86_64-linux:$PATH
@@ -40,3 +36,8 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
+
+export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}'"   
+
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
