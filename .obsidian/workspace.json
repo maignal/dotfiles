@@ -1,0 +1,91 @@
+{
+  "main": {
+    "id": "a8adfe918d1ff0cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "abb3042f823248dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "852b230709672ae2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f0b9a2d95e9b8314",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed1c2140b01e5a00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9468def31369f82",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b036f74872eeee52",
+    "type": "split",
+    "children": [
+      {
+        "id": "50ebe25f3dbadf9c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e95b2b2c921d2e4f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "omnisearch:Omnisearch": false,
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "852b230709672ae2",
+  "lastOpenFiles": []
+}

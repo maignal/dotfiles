@@ -1,0 +1,11 @@
+{
+  "showRibbon": false,
+  "cssTheme": "",
+  "accentColor": "",
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "hide_window_button",
+    "style"
+  ],
+  "showViewHeader": false
+}
