@@ -17,8 +17,9 @@
         "<C-f>": false,
         "<C-b>": false,
         "<C-shift-b": false,
-        "<C-i>": false
-
+        "<C-i>": false,
+        "<C-p>": false,
+        "<C-j>": false
     },
     "extensions.ignoreRecommendations": true,
     "security.workspace.trust.untrustedFiles": "open",
@@ -26,5 +27,7 @@
     "github.copilot.nextEditSuggestions.enabled": true,
     "breadcrumbs.enabled": false,
     "workbench.startupEditor": "none",
-    "window.autoDetectColorScheme": true
+    "window.autoDetectColorScheme": true,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.editor.empty.hint": "hidden"
 }
