@@ -9,7 +9,6 @@
         "markdown": false,
         "scminput": false
     },
-    "chat.commandCenter.enabled": false,
     "vim.useSystemClipboard": true,
     "vim.handleKeys": {
         "<C-c>": false,
@@ -19,15 +18,20 @@
         "<C-shift-b": false,
         "<C-i>": false,
         "<C-p>": false,
-        "<C-j>": false
+        "<C-j>": false,
+        "<C-w>": false
     },
     "extensions.ignoreRecommendations": true,
     "security.workspace.trust.untrustedFiles": "open",
-    "editor.minimap.enabled": false,
     "github.copilot.nextEditSuggestions.enabled": true,
-    "breadcrumbs.enabled": false,
     "workbench.startupEditor": "none",
     "window.autoDetectColorScheme": true,
     "workbench.secondarySideBar.defaultVisibility": "hidden",
-    "workbench.editor.empty.hint": "hidden"
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.preferredDarkColorTheme": "Tokyo Night Storm",
+    "window.zoomLevel": 1,
+    "editor.minimap.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false
 }
