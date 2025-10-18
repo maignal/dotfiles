@@ -1,0 +1,11 @@
+com.bitwarden.desktop
+com.github.PintaProject.Pinta
+com.github.jeromerobert.pdfarranger
+com.mattjakeman.ExtensionManager
+com.spotify.Client
+md.obsidian.Obsidian
+org.gimp.GIMP
+org.kde.kdenlive
+org.mozilla.Thunderbird
+org.telegram.desktop
+org.videolan.VLC

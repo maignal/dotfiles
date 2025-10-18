@@ -1,0 +1,4 @@
+/usr/local/lib
+├── @anthropic-ai/claude-code@1.0.127
+└── pyright@1.1.405
+

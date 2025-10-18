@@ -29,9 +29,19 @@
     "workbench.secondarySideBar.defaultVisibility": "hidden",
     "workbench.editor.empty.hint": "hidden",
     "workbench.preferredDarkColorTheme": "Tokyo Night Storm",
+    "workbench.quickOpen.closeOnFocusLost": false,
     "window.zoomLevel": 1,
     "editor.minimap.enabled": false,
     "chat.commandCenter.enabled": false,
     "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true
+    },
+    "breadcrumbs.enabled": false,
+    "chat.editing.confirmEditRequestRemoval": false,
+    "window.menuBarVisibility": "compact",
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${profileName}${separator}${appName}"
 }
