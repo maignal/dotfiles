@@ -10,12 +10,11 @@
         "scminput": false
     },
     "vim.useSystemClipboard": true,
+    "vim.smartRelativeLine": true,
     "vim.handleKeys": {
         "<C-c>": false,
         "<C-h>": false,
         "<C-f>": false,
-        "<C-b>": false,
-        "<C-shift-b": false,
         "<C-i>": false,
         "<C-p>": false,
         "<C-j>": false,
@@ -43,5 +42,7 @@
     "chat.editing.confirmEditRequestRemoval": false,
     "window.menuBarVisibility": "compact",
     "diffEditor.hideUnchangedRegions.enabled": true,
-    "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${profileName}${separator}${appName}"
+    "terminal.integrated.gpuAcceleration": "off",
+    "window.title": "${dirty}${activeEditorLong}${separator}${activeEditorMediume}${separator}${profileName}${separator}${appName}",
+    "git.autoRepositoryDetection": false
 }

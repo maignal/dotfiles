@@ -37,7 +37,8 @@ export PATH=$JAVA_HOME/bin:$PATH
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
 
-export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}'"   
+export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}'"
+export FZF_DEFAULT_COMMAND="fd --type f --strip-cwd-prefix --hidden --follow --exclude .git"
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
