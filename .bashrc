@@ -26,6 +26,10 @@ unset rc
 
 fastfetch
 
+if [ -f ~/.bashrc.local ]; then
+	. ~/.bashrc.local
+fi
+
 export PATH=$PATH:/home/romeo/.spicetify
 
 export PATH=/usr/local/texlive/2025/bin/x86_64-linux:$PATH
