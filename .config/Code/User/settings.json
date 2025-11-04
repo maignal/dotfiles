@@ -44,5 +44,6 @@
     "diffEditor.hideUnchangedRegions.enabled": true,
     "terminal.integrated.gpuAcceleration": "off",
     "window.title": "${dirty}${activeEditorLong}${separator}${activeEditorMediume}${separator}${profileName}${separator}${appName}",
-    "git.autoRepositoryDetection": false
+    "git.autoRepositoryDetection": false,
+    "git.openRepositoryInParentFolders": "never"
 }
