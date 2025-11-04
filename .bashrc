@@ -26,6 +26,7 @@ unset rc
 
 fastfetch
 
+
 export PATH=$PATH:/home/romeo/.spicetify
 
 export PATH=/usr/local/texlive/2025/bin/x86_64-linux:$PATH
@@ -38,10 +39,15 @@ export PATH=$JAVA_HOME/bin:$PATH
 eval "$(fzf --bash)"
 
 export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}'"
-export FZF_DEFAULT_COMMAND="fd --type f --strip-cwd-prefix --hidden --follow --exclude .git"
+export FZF_ALT_C_OPTS="
+  --walker-skip .git,node_modules,target,.cache
+  --preview 'tree -C {}'"
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+export BOOT_GRUB_LOCATION="/boot/grub2/"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+. "$HOME/.cargo/env"
