@@ -10,3 +10,6 @@ else
     gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
     export THEME="dark"
 fi
+
+bash ~/.config/alacritty/.set_alacritty_theme.sh
+touch ~/.config/alacritty/alacritty.toml

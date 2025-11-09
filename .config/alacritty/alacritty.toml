@@ -1,0 +1,9 @@
+# Alacritty Configuration
+general.import = ["~/.config/alacritty/theme.toml"]
+
+[window]
+decorations = "none"
+
+[font]
+normal = { family = "JetBrainsMonoNerdFont", style = "Regular" }
+size = 12
