@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ALACRITTY_CONFIG_DIR="/home/romeo/.config/alacritty"
-DARK_THEME_FILE="github_dark_default.toml"
-LIGHT_THEME_FILE="github_light_default.toml"
+DARK_THEME_FILE="base16_default_dark.toml"
+LIGHT_THEME_FILE="github_light.toml"
 THEME_LINK="theme.toml"
 
 # Function to set the theme
