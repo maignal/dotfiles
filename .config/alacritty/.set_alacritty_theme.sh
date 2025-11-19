@@ -2,6 +2,7 @@
 
 ALACRITTY_CONFIG_DIR="/home/romeo/.config/alacritty"
 DARK_THEME_FILE="base16_default_dark.toml"
+# DARK_THEME_FILE="github_dark_colorblind.toml"
 LIGHT_THEME_FILE="github_light.toml"
 THEME_LINK="theme.toml"
 
